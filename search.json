@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is where task B will be placed"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "blogs/index.html",
+    "href": "blogs/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "blogs/post/First_blog_9_18_25.html",
+    "href": "blogs/post/First_blog_9_18_25.html",
+    "title": "Home",
+    "section": "",
+    "text": "title: “Blog 1” date: 2025-09-18 categories: [Project A, NHANES] This is my first blog post! I did my best here. I used the Marvin Schmitt template here - https://marvin-schmitt.com/blog/website-tutorial-quarto/#setting-up-your-website-with-quarto\nI then googled a few things like how to edit the color and how to move around/use images throughout the index files. I created a “first blog file” (this one) that was a copy of one of the index files from Marvin and WAMO! I got it. This was quite time consuming."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my website!",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nMy name is Xavier Williams. I aim to be Case Western Reserve’s first Humanist Engineer. I am both a bioethicist and a biomedical engineer! I am currently getting my PhD in Bioethics. I am a fourth generation farmer, born in Alabama but raised in Ohio. My family has taugh me importance of three things: 1. Education 2. Tenacity 3. Community And so I spent my younger years getting my Bachelor’s of Science in Mechanical Engineering with a Minor in Physics from Cleveland State University. I also gained my Biomedical Engineering Masters of Science degree from Case Western Reserve. On this website, you will find a selection of my published works, including scholarly articles, code for git-hub, and a blog. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be speaking. I invite you to explore my website and learn more about my life’s work. Please feel free to contact me if you have any questions or would like to discuss potential projects."
+  }
+]
