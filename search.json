@@ -4,14 +4,35 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "This is where task B will be placed"
+    "text": "This page reads your locally saved data (data/nhanes_clean.rds) and prints clean, graded-ready outputs.\n\n\nSample Characteristics\n\n\n\n$Overview\n# A tibble: 1 × 3\n  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`\n        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            \n1           0 NaN ± NA          NaN ± NA         \n\n$`Counts by Sex`\n[1] Sex n  \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Education`\n[1] educ4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Race (4)`\n[1] race4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nHDL Distribution\n\n\n\n\n\n\n\n\n\n\nStudy 1B - Two Independent Means (HDL by Sex)\n\n\n\n&lt; table of extent 0 &gt;\n\n\n# A tibble: 1 × 1\n  Note                                                                  \n  &lt;chr&gt;                                                                 \n1 Counts/unique-value rule not met; pick a different binary or add data.\n\n\n4)Study 1C — 3-6 Means (HDL By Education)\n\n\n# A tibble: 1 × 1\n  Note                                                           \n  &lt;chr&gt;                                                          \n1 Need 3–6 education groups with ≥30 each and outcome ≥15 unique.\n\n\n\nStudy 1D — 2 by 2 (Sex by High PIR)\n\n\nSTudy 1E — J by K Table (Education by Race4)"
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum vitae",
+    "objectID": "projects/index.html#dashboard-study-1-basics-summaries",
+    "href": "projects/index.html#dashboard-study-1-basics-summaries",
+    "title": "Projects",
     "section": "",
-    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+    "text": "This page reads your locally saved data (data/nhanes_clean.rds) and prints clean, graded-ready outputs.\n\n\nSample Characteristics\n\n\n\n$Overview\n# A tibble: 1 × 3\n  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`\n        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            \n1           0 NaN ± NA          NaN ± NA         \n\n$`Counts by Sex`\n[1] Sex n  \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Education`\n[1] educ4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Race (4)`\n[1] race4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nHDL Distribution\n\n\n\n\n\n\n\n\n\n\nStudy 1B - Two Independent Means (HDL by Sex)\n\n\n\n&lt; table of extent 0 &gt;\n\n\n# A tibble: 1 × 1\n  Note                                                                  \n  &lt;chr&gt;                                                                 \n1 Counts/unique-value rule not met; pick a different binary or add data.\n\n\n4)Study 1C — 3-6 Means (HDL By Education)\n\n\n# A tibble: 1 × 1\n  Note                                                           \n  &lt;chr&gt;                                                          \n1 Need 3–6 education groups with ≥30 each and outcome ≥15 unique.\n\n\n\nStudy 1D — 2 by 2 (Sex by High PIR)\n\n\nSTudy 1E — J by K Table (Education by Race4)"
+  },
+  {
+    "objectID": "dashboard/index.html",
+    "href": "dashboard/index.html",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Setup\n\nSample Characteristics\n\n\n\n$Overview\n# A tibble: 1 × 3\n  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`\n        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            \n1           0 NaN ± NA          NaN ± NA         \n\n$`Counts by Sex`\n[1] Sex n  \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Education`\n[1] educ4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Race (4)`\n[1] race4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nHDL Distribution\n\n\n\n\n\n\n\n\n\n\nStudy 1B - Two Independent Means (HDL by Sex)\n\n\n\n&lt; table of extent 0 &gt;\n\n\n# A tibble: 1 × 1\n  Note                                          \n  &lt;chr&gt;                                         \n1 IDK WHY THIS ISN'T WORKING *CRIES IN DESPAIR!*\n\n\n4)Study 1C — 3-6 Means (HDL By Education)\n\n\n# A tibble: 1 × 1\n  Note                         \n  &lt;chr&gt;                        \n1 Still do not know about this.\n\n\n\nStudy 1D — 2 by 2 (Sex by High PIR)\n\n\n\n# A tibble: 4 × 3\n  sex_male pir_hi     n\n  &lt;fct&gt;    &lt;fct&gt;  &lt;int&gt;\n1 Female   PIR&lt;3      0\n2 Female   PIR≥3      0\n3 Male     PIR&lt;3      0\n4 Male     PIR≥3      0\n\n\n\nSTudy 1E — J by K Table (Education by Race4)\n\n\n\n# A tibble: 0 × 3\n# ℹ 3 variables: educ4 &lt;fct&gt;, race4 &lt;fct&gt;, n &lt;int&gt;"
+  },
+  {
+    "objectID": "dashboard/index.html#dashboard-study-1-basics-summaries",
+    "href": "dashboard/index.html#dashboard-study-1-basics-summaries",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Setup\n\nSample Characteristics\n\n\n\n$Overview\n# A tibble: 1 × 3\n  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`\n        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            \n1           0 NaN ± NA          NaN ± NA         \n\n$`Counts by Sex`\n[1] Sex n  \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Education`\n[1] educ4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Race (4)`\n[1] race4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nHDL Distribution\n\n\n\n\n\n\n\n\n\n\nStudy 1B - Two Independent Means (HDL by Sex)\n\n\n\n&lt; table of extent 0 &gt;\n\n\n# A tibble: 1 × 1\n  Note                                          \n  &lt;chr&gt;                                         \n1 IDK WHY THIS ISN'T WORKING *CRIES IN DESPAIR!*\n\n\n4)Study 1C — 3-6 Means (HDL By Education)\n\n\n# A tibble: 1 × 1\n  Note                         \n  &lt;chr&gt;                        \n1 Still do not know about this.\n\n\n\nStudy 1D — 2 by 2 (Sex by High PIR)\n\n\n\n# A tibble: 4 × 3\n  sex_male pir_hi     n\n  &lt;fct&gt;    &lt;fct&gt;  &lt;int&gt;\n1 Female   PIR&lt;3      0\n2 Female   PIR≥3      0\n3 Male     PIR&lt;3      0\n4 Male     PIR≥3      0\n\n\n\nSTudy 1E — J by K Table (Education by Race4)\n\n\n\n# A tibble: 0 × 3\n# ℹ 3 variables: educ4 &lt;fct&gt;, race4 &lt;fct&gt;, n &lt;int&gt;"
+  },
+  {
+    "objectID": "blogs/post/Second_Blog_9_29_25.html",
+    "href": "blogs/post/Second_Blog_9_29_25.html",
+    "title": "Home",
+    "section": "",
+    "text": "title: “Blog 2 - Oof” date: 2025-09-29 categories: [Project A, Task B NHANES] Second Blog - Gotta say ya’ll this was tough. I got pretty far but in truth needed to throw in the towel. I was using Google to help with this as it always had a code response that could help me and explanation behind the code. Really just asking questions on how to set up these different parts of the project I tried to set up. Unfortunately I was still having problems. The biggest one? I was not able to connect the data to my inhouse computer for some reason. Update: I soon realized I forgot a step of reseting up my excel document. So all my excel documents were empty. As I had to regenerate them from a previous attempt (long story short, it drove me insane). So instead of doing all that again, because it took some time and it is 8:45pm at night, I just accepted the L on this one and turned it in."
   },
   {
     "objectID": "blogs/index.html",
@@ -26,6 +47,13 @@
     "title": "Home",
     "section": "",
     "text": "title: “Blog 1” date: 2025-09-18 categories: [Project A, NHANES] This is my first blog post! I did my best here. I used the Marvin Schmitt template here - https://marvin-schmitt.com/blog/website-tutorial-quarto/#setting-up-your-website-with-quarto\nI then googled a few things like how to edit the color and how to move around/use images throughout the index files. I created a “first blog file” (this one) that was a copy of one of the index files from Marvin and WAMO! I got it. This was quite time consuming."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
   },
   {
     "objectID": "index.html",

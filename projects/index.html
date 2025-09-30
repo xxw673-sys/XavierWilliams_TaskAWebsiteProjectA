@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.24">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
 <title>Projects – Home</title>
 <style>
 code{white-space: pre-wrap;}
@@ -21,7 +18,6 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
@@ -39,8 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-2ef61c2ee50630038b34534ebfc3a2bf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../site_libs/bootstrap/bootstrap-2ef61c2ee50630038b34534ebfc3a2bf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -66,16 +61,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-
-
 </head>
-
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
@@ -89,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
+<li class="nav-item">
+    <a class="nav-link" href="../dashboard/index.html"> 
+<span class="menu-text">Dashboard</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blogs/index.html"> 
@@ -102,8 +92,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/xavier-williams-30b9a1a8/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
 </i> 
 <span class="menu-text"></span></a>
@@ -114,22 +104,22 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
+   
+  <ul>
+<li><a href="#dashboard-study-1-basics-summaries" id="toc-dashboard-study-1-basics-summaries" class="nav-link active" data-scroll-target="#dashboard-study-1-basics-summaries">Dashboard (Study 1 basics + summaries)</a></li>
+  </ul></nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Projects</h1>
 </div>
 
@@ -144,15 +134,77 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
+</header><section id="dashboard-study-1-basics-summaries" class="level2"><h2 class="anchored" data-anchor-id="dashboard-study-1-basics-summaries">Dashboard (Study 1 basics + summaries)</h2>
+<blockquote class="blockquote">
+<p>This page reads your locally saved data (<code>data/nhanes_clean.rds</code>) and prints clean, graded-ready outputs.</p>
+</blockquote>
+<ol type="1">
+<li>Sample Characteristics</li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>$Overview
+# A tibble: 1 × 3
+  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`
+        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            
+1           0 NaN ± NA          NaN ± NA         
+
+$`Counts by Sex`
+[1] Sex n  
+&lt;0 rows&gt; (or 0-length row.names)
+
+$`Counts by Education`
+[1] educ4 n    
+&lt;0 rows&gt; (or 0-length row.names)
+
+$`Counts by Race (4)`
+[1] race4 n    
+&lt;0 rows&gt; (or 0-length row.names)</code></pre>
+</div>
+</div>
+<ol start="2" type="1">
+<li>HDL Distribution</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Study 1B - Two Independent Means (HDL by Sex)</li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt; table of extent 0 &gt;</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 1
+  Note                                                                  
+  &lt;chr&gt;                                                                 
+1 Counts/unique-value rule not met; pick a different binary or add data.</code></pre>
+</div>
+</div>
+<p>4)Study 1C — 3-6 Means (HDL By Education)</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 1
+  Note                                                           
+  &lt;chr&gt;                                                          
+1 Need 3–6 education groups with ≥30 each and outcome ≥15 unique.</code></pre>
+</div>
+</div>
+<ol start="5" type="1">
+<li>Study 1D — 2 by 2 (Sex by High PIR)</li>
+</ol>
+<ol start="6" type="1">
+<li>STudy 1E — J by K Table (Education by Race4)</li>
+</ol>
 
 
-<p>This is where task B will be placed</p>
-
-
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -553,8 +605,7 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
     </div>   
@@ -566,8 +617,6 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
-
-
 
 
 </body></html>
