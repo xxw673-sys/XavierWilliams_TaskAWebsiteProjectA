@@ -1,31 +1,17 @@
 [
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my website!",
     "section": "",
-    "text": "This page reads your locally saved data (data/nhanes_clean.rds) and prints clean, graded-ready outputs.\n\n\nSample Characteristics\n\n\n\n$Overview\n# A tibble: 1 × 3\n  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`\n        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            \n1           0 NaN ± NA          NaN ± NA         \n\n$`Counts by Sex`\n[1] Sex n  \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Education`\n[1] educ4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Race (4)`\n[1] race4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nHDL Distribution\n\n\n\n\n\n\n\n\n\n\nStudy 1B - Two Independent Means (HDL by Sex)\n\n\n\n&lt; table of extent 0 &gt;\n\n\n# A tibble: 1 × 1\n  Note                                                                  \n  &lt;chr&gt;                                                                 \n1 Counts/unique-value rule not met; pick a different binary or add data.\n\n\n4)Study 1C — 3-6 Means (HDL By Education)\n\n\n# A tibble: 1 × 1\n  Note                                                           \n  &lt;chr&gt;                                                          \n1 Need 3–6 education groups with ≥30 each and outcome ≥15 unique.\n\n\n\nStudy 1D — 2 by 2 (Sex by High PIR)\n\n\nSTudy 1E — J by K Table (Education by Race4)"
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nMy name is Xavier Williams. I aim to be Case Western Reserve’s first Humanist Engineer. I am both a bioethicist and a biomedical engineer! I am currently getting my PhD in Bioethics. I am a fourth generation farmer, born in Alabama but raised in Ohio. My family has taugh me importance of three things: 1. Education 2. Tenacity 3. Community And so I spent my younger years getting my Bachelor’s of Science in Mechanical Engineering with a Minor in Physics from Cleveland State University. I also gained my Biomedical Engineering Masters of Science degree from Case Western Reserve. On this website, you will find a selection of my published works, including scholarly articles, code for git-hub, and a blog. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be speaking. I invite you to explore my website and learn more about my life’s work. Please feel free to contact me if you have any questions or would like to discuss potential projects."
   },
   {
-    "objectID": "projects/index.html#dashboard-study-1-basics-summaries",
-    "href": "projects/index.html#dashboard-study-1-basics-summaries",
-    "title": "Projects",
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
     "section": "",
-    "text": "This page reads your locally saved data (data/nhanes_clean.rds) and prints clean, graded-ready outputs.\n\n\nSample Characteristics\n\n\n\n$Overview\n# A tibble: 1 × 3\n  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`\n        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            \n1           0 NaN ± NA          NaN ± NA         \n\n$`Counts by Sex`\n[1] Sex n  \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Education`\n[1] educ4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Race (4)`\n[1] race4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nHDL Distribution\n\n\n\n\n\n\n\n\n\n\nStudy 1B - Two Independent Means (HDL by Sex)\n\n\n\n&lt; table of extent 0 &gt;\n\n\n# A tibble: 1 × 1\n  Note                                                                  \n  &lt;chr&gt;                                                                 \n1 Counts/unique-value rule not met; pick a different binary or add data.\n\n\n4)Study 1C — 3-6 Means (HDL By Education)\n\n\n# A tibble: 1 × 1\n  Note                                                           \n  &lt;chr&gt;                                                          \n1 Need 3–6 education groups with ≥30 each and outcome ≥15 unique.\n\n\n\nStudy 1D — 2 by 2 (Sex by High PIR)\n\n\nSTudy 1E — J by K Table (Education by Race4)"
-  },
-  {
-    "objectID": "dashboard/index.html",
-    "href": "dashboard/index.html",
-    "title": "Dashboard",
-    "section": "",
-    "text": "Setup\n\nSample Characteristics\n\n\n\n$Overview\n# A tibble: 1 × 3\n  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`\n        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            \n1           0 NaN ± NA          NaN ± NA         \n\n$`Counts by Sex`\n[1] Sex n  \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Education`\n[1] educ4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Race (4)`\n[1] race4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nHDL Distribution\n\n\n\n\n\n\n\n\n\n\nStudy 1B - Two Independent Means (HDL by Sex)\n\n\n\n&lt; table of extent 0 &gt;\n\n\n# A tibble: 1 × 1\n  Note                                          \n  &lt;chr&gt;                                         \n1 IDK WHY THIS ISN'T WORKING *CRIES IN DESPAIR!*\n\n\n4)Study 1C — 3-6 Means (HDL By Education)\n\n\n# A tibble: 1 × 1\n  Note                         \n  &lt;chr&gt;                        \n1 Still do not know about this.\n\n\n\nStudy 1D — 2 by 2 (Sex by High PIR)\n\n\n\n# A tibble: 4 × 3\n  sex_male pir_hi     n\n  &lt;fct&gt;    &lt;fct&gt;  &lt;int&gt;\n1 Female   PIR&lt;3      0\n2 Female   PIR≥3      0\n3 Male     PIR&lt;3      0\n4 Male     PIR≥3      0\n\n\n\nSTudy 1E — J by K Table (Education by Race4)\n\n\n\n# A tibble: 0 × 3\n# ℹ 3 variables: educ4 &lt;fct&gt;, race4 &lt;fct&gt;, n &lt;int&gt;"
-  },
-  {
-    "objectID": "dashboard/index.html#dashboard-study-1-basics-summaries",
-    "href": "dashboard/index.html#dashboard-study-1-basics-summaries",
-    "title": "Dashboard",
-    "section": "",
-    "text": "Setup\n\nSample Characteristics\n\n\n\n$Overview\n# A tibble: 1 × 3\n  `N (21–79)` `Age (mean ± sd)` `HDL (mean ± sd)`\n        &lt;int&gt; &lt;chr&gt;             &lt;chr&gt;            \n1           0 NaN ± NA          NaN ± NA         \n\n$`Counts by Sex`\n[1] Sex n  \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Education`\n[1] educ4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n$`Counts by Race (4)`\n[1] race4 n    \n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nHDL Distribution\n\n\n\n\n\n\n\n\n\n\nStudy 1B - Two Independent Means (HDL by Sex)\n\n\n\n&lt; table of extent 0 &gt;\n\n\n# A tibble: 1 × 1\n  Note                                          \n  &lt;chr&gt;                                         \n1 IDK WHY THIS ISN'T WORKING *CRIES IN DESPAIR!*\n\n\n4)Study 1C — 3-6 Means (HDL By Education)\n\n\n# A tibble: 1 × 1\n  Note                         \n  &lt;chr&gt;                        \n1 Still do not know about this.\n\n\n\nStudy 1D — 2 by 2 (Sex by High PIR)\n\n\n\n# A tibble: 4 × 3\n  sex_male pir_hi     n\n  &lt;fct&gt;    &lt;fct&gt;  &lt;int&gt;\n1 Female   PIR&lt;3      0\n2 Female   PIR≥3      0\n3 Male     PIR&lt;3      0\n4 Male     PIR≥3      0\n\n\n\nSTudy 1E — J by K Table (Education by Race4)\n\n\n\n# A tibble: 0 × 3\n# ℹ 3 variables: educ4 &lt;fct&gt;, race4 &lt;fct&gt;, n &lt;int&gt;"
+    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
   },
   {
     "objectID": "blogs/post/Second_Blog_9_29_25.html",
@@ -39,7 +25,7 @@
     "href": "blogs/index.html",
     "title": "Blog",
     "section": "",
-    "text": "No matching items"
+    "text": "Third Blog - Introduction\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blogs/post/First_blog_9_18_25.html",
@@ -49,17 +35,108 @@
     "text": "title: “Blog 1” date: 2025-09-18 categories: [Project A, NHANES] This is my first blog post! I did my best here. I used the Marvin Schmitt template here - https://marvin-schmitt.com/blog/website-tutorial-quarto/#setting-up-your-website-with-quarto\nI then googled a few things like how to edit the color and how to move around/use images throughout the index files. I created a “first blog file” (this one) that was a copy of one of the index files from Marvin and WAMO! I got it. This was quite time consuming."
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum vitae",
+    "objectID": "blogs/post/Third_Blog_10_2_25.html",
+    "href": "blogs/post/Third_Blog_10_2_25.html",
+    "title": "Home",
     "section": "",
-    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+    "text": "title: “Blog 3 - Eureka!” date: 2025-10-01 [Project A, Task B NHANES] Exploring HDL by Education and Food Security (NHANES 2017-2020)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to my website!",
-    "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nMy name is Xavier Williams. I aim to be Case Western Reserve’s first Humanist Engineer. I am both a bioethicist and a biomedical engineer! I am currently getting my PhD in Bioethics. I am a fourth generation farmer, born in Alabama but raised in Ohio. My family has taugh me importance of three things: 1. Education 2. Tenacity 3. Community And so I spent my younger years getting my Bachelor’s of Science in Mechanical Engineering with a Minor in Physics from Cleveland State University. I also gained my Biomedical Engineering Masters of Science degree from Case Western Reserve. On this website, you will find a selection of my published works, including scholarly articles, code for git-hub, and a blog. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be speaking. I invite you to explore my website and learn more about my life’s work. Please feel free to contact me if you have any questions or would like to discuss potential projects."
+    "objectID": "blogs/post/Third_Blog_10_2_25.html#third-blog---introduction",
+    "href": "blogs/post/Third_Blog_10_2_25.html#third-blog---introduction",
+    "title": "Home",
+    "section": "Third Blog - Introduction",
+    "text": "Third Blog - Introduction\nFor Task B, I built a small dashboard to explore how HDL cholesterol varies across education levels and household food security using NHANES 2017–March 2020 (pre-pandemic). My goal wasn’t to produce official population estimates; it was to practice the full pipeline and make an interesting blog using the template from task A. So this involved pulling multiple NHANES components, cleaning and recoding the variables, and presenting clear, unweighted descriptive summaries. All of these can be found in the submission file on Canvas. It took me more time to make sure the xpt files could be properly translated into excel files but I succeed despite being in despair."
+  },
+  {
+    "objectID": "blogs/post/Third_Blog_10_2_25.html#three-nhanes-variables",
+    "href": "blogs/post/Third_Blog_10_2_25.html#three-nhanes-variables",
+    "title": "Home",
+    "section": "Three NHANES Variables",
+    "text": "Three NHANES Variables\nI combined three NHANES files, all linked by the participant ID (SEQN):\nDemographics (P_DEMO): age, sex, race/ethnicity, education, income-to-poverty ratio, plus the survey design variables I’ll use later.\nHDL laboratory (P_HDL): HDL cholesterol in mg/dL — that’s my outcome.\nFood Security (P_FSQ): household food security categories — this is the third source to meet the project requirement and to see whether HDL differs by food security status."
+  },
+  {
+    "objectID": "blogs/post/Third_Blog_10_2_25.html#how-i-cleaned-the-variables",
+    "href": "blogs/post/Third_Blog_10_2_25.html#how-i-cleaned-the-variables",
+    "title": "Home",
+    "section": "How I cleaned the variables",
+    "text": "How I cleaned the variables\nNHANES uses labeled codes, so I first converted “refused/don’t know” numeric codes (e.g., 77, 99, etc.) to missing. For the rest I made main recodes:\nEducation: I turned DMDEDUC2 into a 4-level factor: LessHS, HS/GED, SomeCollege, College+.\nFood security: I started from the released household category (FSDHH: High, Marginal, Low, Very low). For a cleaner display I also made a 3-level version, fs_cat = Marginal/High, Low, Very low (collapsing High+Marginal together).\nHDL: I kept HDL in mg/dL and filtered to the age range above.\nI also carried the design variables and MEC weights through the pipeline so I can use them later, even though this task only asks for unweighted descriptives."
+  },
+  {
+    "objectID": "blogs/post/Third_Blog_10_2_25.html#whats-on-the-dashboard",
+    "href": "blogs/post/Third_Blog_10_2_25.html#whats-on-the-dashboard",
+    "title": "Home",
+    "section": "What’s on the dashboard?",
+    "text": "What’s on the dashboard?\nThe dashboard reads prepared Excel sheets and shows three things:\nKPIs (Key Performance Indicator): total N, HDL non-missing N, and the overall mean/SD of HDL.\nVisualization 1 – HDL by education: A faceted histogram so I can actually see the distribution of HDL within each education group (not just the average). This includes both a histogram comparison and the table 1 that includes the Means and SD of HDL by Education as well as the n values.\nTable 2 – HDL by food security: A simple bar chart of mean HDL across Marginal/High, Low, and Very low food security, plus a small table with mean and SD. This explicitly uses the Food Security file so the third dataset is represented in the results, not just the merge."
+  },
+  {
+    "objectID": "blogs/post/Third_Blog_10_2_25.html#what-im-seeing",
+    "href": "blogs/post/Third_Blog_10_2_25.html#what-im-seeing",
+    "title": "Home",
+    "section": "What I’m seeing",
+    "text": "What I’m seeing\nThe KPIs confirm I’m working with a solid sample of MEC-examined adults and a large subset with valid HDL. The education display suggests a familiar pattern: groups with more education tend to have slightly higher average HDL. The food security display also shows a trend. Households classified as Very low food security tend to have lower mean HDL than the Marginal/High category. These are descriptive differences only but they’re consistent with what I’d expect from social determinants of health. Education is a huge predictor of health outcomes and even consistent upkeep with health is shown through the data."
+  },
+  {
+    "objectID": "blogs/post/Third_Blog_10_2_25.html#what-i-didnt-do",
+    "href": "blogs/post/Third_Blog_10_2_25.html#what-i-didnt-do",
+    "title": "Home",
+    "section": "What I didn’t do",
+    "text": "What I didn’t do\nPer the assignment, I kept these summaries unweighted and didn’t report standard errors or confidence intervals."
+  },
+  {
+    "objectID": "blogs/post/Third_Blog_10_2_25.html#what-id-do-next",
+    "href": "blogs/post/Third_Blog_10_2_25.html#what-id-do-next",
+    "title": "Home",
+    "section": "What I’d do next",
+    "text": "What I’d do next\nIf I were extending this, I’d (1) re-run the summaries using the survey design for weighted means and CIs, and (2) fit adjusted models (e.g., mean HDL ~ education + food security + age + sex + race/ethnicity + PIR) to see whether the patterns hold after accounting for obvious confounders. I’d also split food security into adult vs household if needed. Finally I’d explore whether results change by sex or age group just to see what’s going on with the demographics."
+  },
+  {
+    "objectID": "blogs/post/Third_Blog_10_2_25.html#takeaway-and-final-thoughts",
+    "href": "blogs/post/Third_Blog_10_2_25.html#takeaway-and-final-thoughts",
+    "title": "Home",
+    "section": "Takeaway and Final Thoughts",
+    "text": "Takeaway and Final Thoughts\nThis task was about building me a work flow into my already established website. The thing is it took a lot of time and was a lot of work. Pulling multiple NHNANES components, cleaning them correctly, creating outputs, and then connecting them to the dashboard? Quite difficult. but luckily I finished it even though it took me a little longer."
+  },
+  {
+    "objectID": "dashboard/index.html#task-b-subpopulation-data-files-used",
+    "href": "dashboard/index.html#task-b-subpopulation-data-files-used",
+    "title": "Project A – Task B: HDL & Food Security Dashboard",
+    "section": "Task B — Subpopulation & Data Files Used",
+    "text": "Task B — Subpopulation & Data Files Used\nThis dashboard uses three NHANES files (2017–Mar 2020 pre-pandemic):\nDemographics (P_DEMO)\nHDL Laboratory (P_HDL)\nFood Security (P_FSQ)\nWe restrict to: RIDSTATR = “Both interviewed and MEC examined”, ages 21–79. Results shown here are unweighted for this assignment."
+  },
+  {
+    "objectID": "dashboard/index.html#task-b-adequate-ns",
+    "href": "dashboard/index.html#task-b-adequate-ns",
+    "title": "Project A – Task B: HDL & Food Security Dashboard",
+    "section": "Task B — Adequate Ns",
+    "text": "Task B — Adequate Ns\n\n\nSample size (21–79, MEC)\n\n\n[1] \"8,347\"\n\n\n\nWith HDL\n\n\n[1] \"7,155\"\n\n\n\nMean HDL (mg/dL)\n\n\n[1] 53.1\n\n\n\nSD HDL (mg/dL)\n\n\n[1] 15.8"
+  },
+  {
+    "objectID": "dashboard/index.html#task-b-visualizations-1-hdl-distributions-by-education",
+    "href": "dashboard/index.html#task-b-visualizations-1-hdl-distributions-by-education",
+    "title": "Project A – Task B: HDL & Food Security Dashboard",
+    "section": "Task B — Visualizations 1: HDL distributions by education",
+    "text": "Task B — Visualizations 1: HDL distributions by education\n\n\n\n\n\n\n\nFigure 1"
+  },
+  {
+    "objectID": "dashboard/index.html#task-b-table-1-mean-and-sd-of-hdl-by-education",
+    "href": "dashboard/index.html#task-b-table-1-mean-and-sd-of-hdl-by-education",
+    "title": "Project A – Task B: HDL & Food Security Dashboard",
+    "section": "Task B — Table 1: Mean and SD of HDL by education",
+    "text": "Task B — Table 1: Mean and SD of HDL by education\n\n\n\nTable 1\n\n\n\n\n\n\neduc4\nn\nmean_hdl\nsd_hdl\n\n\n\nLessHS\n1309\n49.8\n14.16\n\n\nHS/GED\n1695\n52.2\n15.92\n\n\nSomeCollege\n2358\n53.6\n15.72\n\n\nCollege+\n1786\n55.5\n16.27"
+  },
+  {
+    "objectID": "dashboard/index.html#task-b-table-2-hdl-by-food-security",
+    "href": "dashboard/index.html#task-b-table-2-hdl-by-food-security",
+    "title": "Project A – Task B: HDL & Food Security Dashboard",
+    "section": "Task B — Table 2: HDL by Food Security",
+    "text": "Task B — Table 2: HDL by Food Security\n\n\n\nTable 2\n\n\n\n\n\n\nfs_cat\nn\nmean_hdl\nsd_hdl\n\n\n\nLow\n1004\n51.4\n15.34\n\n\nMarginal/High\n5056\n53.6\n15.82\n\n\nVery low\n665\n50.8\n14.57"
+  },
+  {
+    "objectID": "dashboard/index.html#methods",
+    "href": "dashboard/index.html#methods",
+    "title": "Project A – Task B: HDL & Food Security Dashboard",
+    "section": "Methods",
+    "text": "Methods\nFiles: P_DEMO (Demographics), P_HDL (HDL), P_FSQ (Food Security); merged by SEQN.\nSubsample: RIDSTATR = “Both interviewed and MEC examined”; ages 21–79.\nKey variables: RIDAGEYR (age), RIAGENDR (sex), DMDEDUC2→educ4 (education), INDFMPIR (PIR), LBXHDD/LBDHDDSI (HDL)."
   }
 ]
