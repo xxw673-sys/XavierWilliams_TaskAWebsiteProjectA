@@ -1,8 +1,0 @@
-
----
-title: "Blog 1"
-date: 2025-09-18
-categories: [Project A, NHANES]
-This is my first blog post! I did my best here. I used the Marvin Schmitt template here - https://marvin-schmitt.com/blog/website-tutorial-quarto/#setting-up-your-website-with-quarto
-
-I then googled a few things like how to edit the color and how to move around/use images throughout the index files. I created a "first blog file" (this one) that was a copy of one of the index files from Marvin and WAMO! I got it. This was quite time consuming.
