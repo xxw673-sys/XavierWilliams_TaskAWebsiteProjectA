@@ -1,0 +1,6 @@
+
+---
+title: "Blog 2 - Oof"
+date: 2025-09-29
+categories: [Project A, Task B NHANES]
+Second Blog - Gotta say ya'll this was tough. I got pretty far but in truth needed to throw in the towel. I was using Google to help with this as it always had a code response that could help me and explanation behind the code. Really just asking questions on how to set up these different parts of the project I tried to set up. Unfortunately I was still having problems. The biggest one? I was not able to connect the data to my inhouse computer for some reason. Update: I soon realized I forgot a step of reseting up my excel document. So all my excel documents were empty. As I had to regenerate them from a previous attempt (long story short, it drove me insane). So instead of doing all that again, because it took some time and it is 8:45pm at night, I just accepted the L on this one and turned it in. 
